@@ -56,15 +56,47 @@
 		28DAC44C2916C8B8008DAF72 /* MarvelApp */ = {
 			isa = PBXGroup;
 			children = (
-				28DAC44D2916C8B8008DAF72 /* AppDelegate.swift */,
-				28DAC44F2916C8B8008DAF72 /* SceneDelegate.swift */,
-				28DAC4512916C8B8008DAF72 /* ViewController.swift */,
-				28DAC4532916C8B8008DAF72 /* Main.storyboard */,
-				28DAC4562916C8BA008DAF72 /* Assets.xcassets */,
-				28DAC4582916C8BA008DAF72 /* LaunchScreen.storyboard */,
-				28DAC45B2916C8BA008DAF72 /* Info.plist */,
+				28DAC4612916C8FA008DAF72 /* App */,
+				28DAC4622916C901008DAF72 /* ViewControllers */,
+				28DAC4632916C90B008DAF72 /* Storyboards */,
+				28DAC4642916C91A008DAF72 /* Resources */,
 			);
 			path = MarvelApp;
+			sourceTree = "<group>";
+		};
+		28DAC4612916C8FA008DAF72 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				28DAC44D2916C8B8008DAF72 /* AppDelegate.swift */,
+				28DAC44F2916C8B8008DAF72 /* SceneDelegate.swift */,
+				28DAC45B2916C8BA008DAF72 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		28DAC4622916C901008DAF72 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28DAC4512916C8B8008DAF72 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		28DAC4632916C90B008DAF72 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				28DAC4532916C8B8008DAF72 /* Main.storyboard */,
+				28DAC4582916C8BA008DAF72 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		28DAC4642916C91A008DAF72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28DAC4562916C8BA008DAF72 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6P96P67U8G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MarvelApp/Info.plist;
+				INFOPLIST_FILE = MarvelApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6P96P67U8G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MarvelApp/Info.plist;
+				INFOPLIST_FILE = MarvelApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
