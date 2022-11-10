@@ -13,6 +13,13 @@
 		28DAC4552916C8B8008DAF72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DAC4532916C8B8008DAF72 /* Main.storyboard */; };
 		28DAC4572916C8BA008DAF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DAC4562916C8BA008DAF72 /* Assets.xcassets */; };
 		28DAC45A2916C8BA008DAF72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DAC4582916C8BA008DAF72 /* LaunchScreen.storyboard */; };
+		28DAC4662916C9F3008DAF72 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC4652916C9F3008DAF72 /* Constants.swift */; };
+		28DAC4692916CA5B008DAF72 /* MarvelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC4682916CA5B008DAF72 /* MarvelModel.swift */; };
+		28DAC46C2916CCDA008DAF72 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC46B2916CCDA008DAF72 /* NetworkManager.swift */; };
+		28DAC46E2918127F008DAF72 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC46D2918127F008DAF72 /* Service.swift */; };
+		28DAC470291815AA008DAF72 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC46F291815AA008DAF72 /* ServiceProvider.swift */; };
+		28DAC472291819A5008DAF72 /* MarvelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC471291819A5008DAF72 /* MarvelService.swift */; };
+		28DAC474291ACBC7008DAF72 /* NetworkManagerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC473291ACBC7008DAF72 /* NetworkManagerNew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		28DAC4562916C8BA008DAF72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28DAC4592916C8BA008DAF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28DAC45B2916C8BA008DAF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DAC4652916C9F3008DAF72 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		28DAC4682916CA5B008DAF72 /* MarvelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelModel.swift; sourceTree = "<group>"; };
+		28DAC46B2916CCDA008DAF72 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		28DAC46D2918127F008DAF72 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		28DAC46F291815AA008DAF72 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		28DAC471291819A5008DAF72 /* MarvelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelService.swift; sourceTree = "<group>"; };
+		28DAC473291ACBC7008DAF72 /* NetworkManagerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerNew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				28DAC4612916C8FA008DAF72 /* App */,
+				28DAC4672916CA4C008DAF72 /* Models */,
 				28DAC4622916C901008DAF72 /* ViewControllers */,
+				28DAC46A2916CCC5008DAF72 /* Services */,
 				28DAC4632916C90B008DAF72 /* Storyboards */,
 				28DAC4642916C91A008DAF72 /* Resources */,
 			);
@@ -78,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				28DAC4512916C8B8008DAF72 /* ViewController.swift */,
+				28DAC4652916C9F3008DAF72 /* Constants.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -97,6 +114,26 @@
 				28DAC4562916C8BA008DAF72 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		28DAC4672916CA4C008DAF72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28DAC4682916CA5B008DAF72 /* MarvelModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28DAC46A2916CCC5008DAF72 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				28DAC46B2916CCDA008DAF72 /* NetworkManager.swift */,
+				28DAC46D2918127F008DAF72 /* Service.swift */,
+				28DAC46F291815AA008DAF72 /* ServiceProvider.swift */,
+				28DAC471291819A5008DAF72 /* MarvelService.swift */,
+				28DAC473291ACBC7008DAF72 /* NetworkManagerNew.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +207,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28DAC46E2918127F008DAF72 /* Service.swift in Sources */,
+				28DAC46C2916CCDA008DAF72 /* NetworkManager.swift in Sources */,
+				28DAC4692916CA5B008DAF72 /* MarvelModel.swift in Sources */,
 				28DAC4522916C8B8008DAF72 /* ViewController.swift in Sources */,
+				28DAC472291819A5008DAF72 /* MarvelService.swift in Sources */,
+				28DAC470291815AA008DAF72 /* ServiceProvider.swift in Sources */,
 				28DAC44E2916C8B8008DAF72 /* AppDelegate.swift in Sources */,
 				28DAC4502916C8B8008DAF72 /* SceneDelegate.swift in Sources */,
+				28DAC4662916C9F3008DAF72 /* Constants.swift in Sources */,
+				28DAC474291ACBC7008DAF72 /* NetworkManagerNew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,8 +369,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,8 +396,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
