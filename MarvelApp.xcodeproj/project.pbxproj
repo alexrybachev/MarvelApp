@@ -20,6 +20,7 @@
 		28DAC470291815AA008DAF72 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC46F291815AA008DAF72 /* ServiceProvider.swift */; };
 		28DAC472291819A5008DAF72 /* MarvelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC471291819A5008DAF72 /* MarvelService.swift */; };
 		28DAC474291ACBC7008DAF72 /* NetworkManagerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAC473291ACBC7008DAF72 /* NetworkManagerNew.swift */; };
+		28DDB0A5291D7C7700FFCB87 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DDB0A4291D7C7700FFCB87 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		28DAC46F291815AA008DAF72 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 		28DAC471291819A5008DAF72 /* MarvelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelService.swift; sourceTree = "<group>"; };
 		28DAC473291ACBC7008DAF72 /* NetworkManagerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerNew.swift; sourceTree = "<group>"; };
+		28DDB0A4291D7C7700FFCB87 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				28DAC46F291815AA008DAF72 /* ServiceProvider.swift */,
 				28DAC471291819A5008DAF72 /* MarvelService.swift */,
 				28DAC473291ACBC7008DAF72 /* NetworkManagerNew.swift */,
+				28DDB0A4291D7C7700FFCB87 /* APIClient.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				28DAC4692916CA5B008DAF72 /* MarvelModel.swift in Sources */,
 				28DAC4522916C8B8008DAF72 /* ViewController.swift in Sources */,
 				28DAC472291819A5008DAF72 /* MarvelService.swift in Sources */,
+				28DDB0A5291D7C7700FFCB87 /* APIClient.swift in Sources */,
 				28DAC470291815AA008DAF72 /* ServiceProvider.swift in Sources */,
 				28DAC44E2916C8B8008DAF72 /* AppDelegate.swift in Sources */,
 				28DAC4502916C8B8008DAF72 /* SceneDelegate.swift in Sources */,

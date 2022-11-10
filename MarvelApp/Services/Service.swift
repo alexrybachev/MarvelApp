@@ -7,10 +7,12 @@
 
 import Foundation
 
+/*
 enum ServiceMethod: String {
     case get = "GET"
     // implement more when needed: post, put, delete, patch, etc.
 }
+ */
 
 protocol Service {
     var baseURL: String { get }
